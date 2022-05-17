@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: reactive-customer
+  data:
+    mongodb:
+      database: customersdb
+    port: 27017
+    host: localhost
+
+springdoc:
+  api-docs:
+    groups:
+      enabled: true
+    path: /swagger-doc/v3/api-docs # where we find definition of endpoints
+  swagger-ui:
+    path: /swagger-doc/swagger-ui.html
